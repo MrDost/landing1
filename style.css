@@ -1,0 +1,155 @@
+body {
+    font-family: Roboto;
+    color: white;
+}
+
+button {
+    background-color: #3882F6;
+    border: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 12px 36px;
+    border-radius: 16px;
+}
+
+.s1 {
+    background-color: #1F2937;
+    padding: 40px 400px;
+    margin-bottom: 70px;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 150px;
+}
+
+.links {
+    display: flex;
+    gap: 20px;
+}
+
+.header-link {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.title {
+    color: white;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.description {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 150px;
+}
+
+.hero1 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.content {
+    max-width: 600px;
+}
+
+.content > *{
+    margin-bottom: 10px;
+}
+
+.content .description {
+    margin-bottom: 60px;
+}
+
+.hero2 .placeholder img {
+    height: 450px;
+    width: 1000px;
+}
+
+.s2 {
+    color: black;
+    padding: 40px 400px;
+    margin-bottom: 170px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+
+.item-photo img {
+    width: 200px;
+    height: 200px;
+    border-radius: 40px;
+    margin-bottom: 16px;
+}
+
+.item-text {
+    max-width: 200px;
+    text-align: center;
+    color: #525252;
+}
+
+.item_wrapper{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+
+.s3 {
+    background-color:#E5E7EB;
+    color: black;
+    padding: 300px 600px;
+}
+
+.text {
+    font-style: italic;
+    font-size: 36px;
+}
+
+.author {
+    font-weight: 700;
+    text-align: right;
+    font-size: 24px;
+}
+
+.s4 {
+    padding: 100px 600px;
+}
+
+.call-to-action {
+    display: flex;
+    background-color: #3882F6;
+    padding: 60px 180px;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+
+.call-to-action .title {
+    font-size: 28px;
+}
+
+.call-to-action .descr {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+#signup {
+    border: solid;
+}
